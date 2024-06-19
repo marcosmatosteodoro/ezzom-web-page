@@ -1,0 +1,35 @@
+#title-group {
+  display: grid;
+  gap: 50px;
+  color: $color-white;
+  margin-top: 135px;
+  max-width: 320px;
+  h1 {
+    font-size: 95.59px;
+    line-height: 79.95px;
+    font-weight: 250;
+    span{
+      font-weight: 700;
+    }
+  }
+
+  h2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+  
+}
+
+button.outline-light{
+  border-radius: 500px;
+  border: solid 2px $color-white;
+  padding: 15px 20px 15px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: $color-white;
+  background: transparent;
+  cursor: pointer;
+  width: fit-content;
+}

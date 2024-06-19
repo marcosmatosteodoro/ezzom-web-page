@@ -1,0 +1,39 @@
+.nav-content {
+  display: flex; 
+  justify-content: space-between;
+}
+
+#menu-content {
+  display: flex;
+  align-items: center;
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  #menu-links {
+    margin-right: 61px;
+    li a {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19.2px;
+      color: $color-white;
+    }
+    [menu=menu2]{
+      margin-left: 60px;
+    }
+    [menu=menu3]{
+      margin-left: 63px;
+    }
+  }
+}
+
+#search-button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  margin: 0 43px;
+}
+button.button-expand[aria-expanded=false]{
+  display: none;
+}

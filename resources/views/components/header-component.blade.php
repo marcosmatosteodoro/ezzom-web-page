@@ -1,8 +1,10 @@
 <header>
   <div id="header">
-    <video id="root-video" autoplay loop muted controls>
-      <source src="/video.mp4" type="video/mp4">
-    </video>
+    <div id="root-video">
+      <video  autoplay loop muted controls>
+        <source src="/video.mp4" type="video/mp4">
+      </video>
+    </div>
 
     <div id="root-menu">
       <nav>
