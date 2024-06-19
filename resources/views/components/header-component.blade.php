@@ -24,7 +24,7 @@
                 <a href="#">Menu 2</a>
               </li>
               <li menu="menu3">
-                <a href="#">Menu 3</a>
+                <a href="#">Menu3</a>
               </li>
             </ul>
 
@@ -40,6 +40,26 @@
               </li>
               <li>
                 <a href="#">
+                  <img src="/instagram.svg" alt="instagram" width="18px" height="18px">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/youtube.svg" alt="youtube" width="18px" height="18px">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/tiktok.svg" alt="tiktok" width="18px" height="18px">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/mic.svg" alt="mic" width="18px" height="18px">
+                </a>
+              </li>
+              <li>
+                <a href="#">
                   <img src="/linkedin.svg" alt="linkedin" width="18px" height="18px">
                 </a>
               </li>
@@ -47,6 +67,22 @@
           </div>
         </div>
       </nav>
+
+      <div id="title-group">
+        <h1>
+          Novas <span>modalidades</span> e ampliaçãode <span>horários.</span>
+        </h1>
+        
+        <h2>
+          Aulas de 45 minutos e período de teste gratuito.
+        </h2>
+
+        <button class="outline-light">
+          SAIBA MAIS
+        </button>
+      </div>
+
+      <div></div>
     </div>
   </div>
 </header>
