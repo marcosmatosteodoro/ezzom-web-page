@@ -87,3 +87,8 @@
   </div>
 </header>
 
+<div id="fixed-component">
+  <button>
+    <img src="/whatsapp.svg" alt="whatsapp" />
+  </button>
+</div>
