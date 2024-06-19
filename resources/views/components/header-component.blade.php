@@ -6,6 +6,10 @@
       </video>
     </div>
 
+    <div id="header-border-top">
+      <div></div>
+    </div>
+
     <div id="root-menu">
       <nav>
         <div class="nav-content">
