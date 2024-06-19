@@ -11,16 +11,15 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <style>
-        </style>
+        @vite(['resources/css/app.css', 'resources/scss/app.scss'])
     </head>
     <body>
-        <header>
-            
-        </header>
+        
+        @include('components.header-component')
 
         <main>
             <section></section>
+
             <section></section>
         </main>
     </body>
