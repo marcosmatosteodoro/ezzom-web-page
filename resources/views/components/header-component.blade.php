@@ -26,7 +26,7 @@
               @each('components.menu-item-link-component', $menuItems, 'item')
             </ul>
             
-            <button id="search-button">
+            <button id="search-button" type="button">
               <img src="/search.svg" alt="search" width="20px" height="20px">
             </button>
             
@@ -46,7 +46,7 @@
           Aulas de 45 minutos e período de teste gratuito.
         </h2>
 
-        <button class="outline-light">
+        <button class="outline-light" type="button">
           SAIBA MAIS
         </button>
       </div>
@@ -55,7 +55,7 @@
 </header>
 
 <div id="fixed-component">
-  <button>
+  <button type="button">
     <img src="/whatsapp.svg" alt="whatsapp" />
   </button>
 </div>
