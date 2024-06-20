@@ -1,7 +1,7 @@
 #fixed-component {
   position: fixed;
   right: 121px;
-  bottom: 200px;
+  top: 70vh;
   z-index: 2;
   button {
     width: 50px;
@@ -10,5 +10,9 @@
     background-color: #42B073;
     border: none;
     cursor: pointer;
+  }
+
+  @media (max-width: $break-lg) {
+    right: 29.8px;
   }
 }

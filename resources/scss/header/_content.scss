@@ -18,18 +18,38 @@
     line-height: 32px;
     font-weight: 400;
   }
-  
+
+  @media (max-width: $break-lg) {
+    margin-top: 100px;
+    gap: 20px;
+    h1 {
+      font-size: 58.55px;
+      line-height: 48.97px;
+      span{
+        font-weight: 700;
+      }
+    }
+    h2{
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 400;
+    }
+  }
 }
 
 button.outline-light{
-  border-radius: 500px;
-  border: solid 2px $color-white;
+  cursor: pointer;
+  background: transparent;
+  width: fit-content;
+  color: $color-white;
   padding: 15px 20px 15px 20px;
+  border: solid 2px $color-white;
+  border-radius: 500px;
   font-weight: 700;
   font-size: 16px;
   line-height: 19.2px;
-  color: $color-white;
-  background: transparent;
-  cursor: pointer;
-  width: fit-content;
+
+  @media (max-width: $break-lg) {
+    margin-top: 13px;
+  }
 }
