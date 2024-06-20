@@ -100,13 +100,18 @@
   }
 }
 
-#search-button {
+.search-button {
   cursor: pointer;
   border: none;
   background-color: transparent;
   margin: 0 43px;
-
-  @media (max-width: $break-lg) {
+  &:not(.lg-hide){
     display: none;
+  }
+  @media (max-width: $break-lg) {
+    margin: 0 41px;
+    &.lg-hide {
+      display: none;
+    }
   }
 }
