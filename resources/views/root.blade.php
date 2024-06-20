@@ -11,10 +11,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
         <!-- Styles -->
         @vite(['resources/css/app.css', 'resources/scss/app.scss'])
+        
     </head>
     <body>
         
-        @include('components.header-component')
+        <x-header-component></x-header-component>
 
         <main>
             <section></section>

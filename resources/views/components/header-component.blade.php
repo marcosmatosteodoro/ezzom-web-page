@@ -9,7 +9,7 @@
     <div id="header-border-top">
       <div></div>
     </div>
-
+    
     <div id="root-menu">
       <nav>
         <div class="nav-content">
@@ -23,15 +23,7 @@
 
           <div id="menu-content">
             <ul id="menu-links" style="margin-right: 61px">
-              <li menu="menu1">
-                <a href="#">Menu 1</a>
-              </li>
-              <li menu="menu2">
-                <a href="#">Menu 2</a>
-              </li>
-              <li menu="menu3">
-                <a href="#">Menu3</a>
-              </li>
+              @each('components.menu-item-link-component', $menuItems, 'item')
             </ul>
 
             <button id="search-button">
