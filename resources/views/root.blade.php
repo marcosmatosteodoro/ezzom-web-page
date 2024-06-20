@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
         <!-- Styles -->
-        @vite(['resources/css/app.css', 'resources/scss/app.scss'])
+        @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
         
     </head>
     <body>
