@@ -25,42 +25,13 @@
             <ul id="menu-links" style="margin-right: 61px">
               @each('components.menu-item-link-component', $menuItems, 'item')
             </ul>
-
+            
             <button id="search-button">
               <img src="/search.svg" alt="search" width="20px" height="20px">
             </button>
-
+            
             <ul style="gap: 21px;">
-              <li>
-                <a href="#">
-                  <img src="/facebook.svg" alt="facebook" width="18px" height="18px">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/instagram.svg" alt="instagram" width="18px" height="18px">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/youtube.svg" alt="youtube" width="18px" height="18px">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/tiktok.svg" alt="tiktok" width="18px" height="18px">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/mic.svg" alt="mic" width="18px" height="18px">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/linkedin.svg" alt="linkedin" width="18px" height="18px">
-                </a>
-              </li>
+              @each('components.menu-item-li-component', $liItems, 'item')
             </ul>
           </div>
         </div>
@@ -79,8 +50,6 @@
           SAIBA MAIS
         </button>
       </div>
-
-      <div></div>
     </div>
   </div>
 </header>

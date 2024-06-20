@@ -9,6 +9,7 @@ use Illuminate\View\Component;
 class HeaderComponent extends Component
 {
     public $menuItems ;
+    public $liItems ;
 
     /**
      * Create a new component instance.
@@ -20,6 +21,14 @@ class HeaderComponent extends Component
             ['title'=> 'Menu 2', 'menu'=> 'menu2'],
             ['title'=> 'Menu3', 'menu'=> 'menu3'],
         ];
+        $this->liItems  = [
+            ['name'=> 'facebook', 'path'=> '/facebook.svg','width'=>'18px', 'height'=>'18px'],
+            ['name'=> 'instagram', 'path'=> '/instagram.svg','width'=>'19px', 'height'=>'19px'],
+            ['name'=> 'youtube', 'path'=> '/youtube.svg','width'=>'20px', 'height'=>'14px'],
+            ['name'=> 'tiktok', 'path'=> '/tiktok.svg','width'=>'15.68px', 'height'=>'18px'],
+            ['name'=> 'mic', 'path'=> '/mic.svg','width'=>'13.3px', 'height'=>'19px'],
+            ['name'=> 'linkedin', 'path'=> '/linkedin.svg','width'=>'18px', 'height'=>'18px'],
+        ];
     }
 
     /**
@@ -29,6 +38,7 @@ class HeaderComponent extends Component
     {
         return view('components.header-component', [
             'menuItems ' => $this->menuItems,
+            'liItems ' => $this->liItems,
         ]);
     }
 }
