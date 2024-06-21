@@ -1,6 +1,9 @@
 <li class="splide__slide">
   <div class="splide-group" style="background-image: url('{{ $image }}')"> 
-    <div class="splide-border {{ $bg }}"></div>  
+    <div style="height: 8px">
+      @include('components.shared.hr-color-component', ['bg' => $bg, 'orientation' => 'w', 'size' => 'md'])
+    </div>
+
     <article>
       <div class="splide-title">
         <h3>

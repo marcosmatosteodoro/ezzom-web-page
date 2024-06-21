@@ -46,23 +46,6 @@
     }
   }
 
-  .splide-border{
-    height: 8px;
-    border-radius: 0px 0px 5px 5px;
-    &.bg-green {
-      background-color: $color-green;
-    }
-    &.bg-blue {
-      background-color: $color-blue;
-    }
-    &.bg-red {
-      background-color: $color-red;
-    }
-    &.bg-yellow {
-      background-color: $color-yellow;
-    }
-  }
-
   article {
     position: relative;
     display: grid;

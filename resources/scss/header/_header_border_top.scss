@@ -1,12 +1,6 @@
 #header-border-top {
   padding: 0 121px;
-  div {
-    height: 5px;
-    width: 100%;
-    background-color: $color-white;
-    border-radius: 500px;
-  }
-
+  height: 5px;
   @media (max-width: $break-lg) {
     display: none;
   }
