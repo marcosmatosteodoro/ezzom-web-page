@@ -7,7 +7,7 @@
     Aulas de 45 minutos e período de teste gratuito.
   </h2>
 
-  <button class="outline-light" type="button">
+  <button class="outline-light button-outline outline-light" type="button">
     SAIBA MAIS
   </button>
 </div>

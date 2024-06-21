@@ -15,7 +15,48 @@
   .grid-news {
     display: grid;
     height: 100%;
-    grid-template-columns: 12px 1fr 1fr;
+    grid-template-columns: 12px 1fr;
     grid-template-rows: 1fr;
   }
+
+  .grid-news-content {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 545px 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .grid-news-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 71px;
+    gap: 4px;
+    h1{
+      font-weight: 250;
+      font-size: 80px;
+      line-height: 120px;
+      letter-spacing: -8%;
+      color: $color-black;
+    }
+    
+    p{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: $color-black;
+      margin-bottom: 19px;
+    }
+
+    button{
+    }
+  }
 }
+
+
+// 338 + 61 + 146
+// 08007236606
+// 10621
+
+// estefane

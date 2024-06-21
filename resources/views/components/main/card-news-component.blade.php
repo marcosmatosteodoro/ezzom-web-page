@@ -3,7 +3,18 @@
     <div class="hr-vertical">
       @include('components.shared.hr-color-component', ['bg' => 'bg-green', 'orientation' => 'h', 'size' => 'lg'])
     </div>
-    <div class="content"></div>
-    <div class="carrossel"></div>
+
+    <div class="grid-news-content">
+
+      <article class="grid-news-article">
+        <h1>Esportes</h1>
+        <p>Lorem Ipsum dolor Sit Amet Lorem</p>
+        <button type="button" class="button-outline outline-black">Ver Todos</button>
+      </article>
+
+      <div class="carrossel"></div>
+    </div>
+
+    
   </div>
 </div>

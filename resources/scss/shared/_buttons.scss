@@ -1,0 +1,20 @@
+.button-outline{
+  cursor: pointer;
+  background: transparent;
+  width: fit-content;
+  padding: 15px 20px 15px 20px;
+  border-radius: 500px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  border-width: 2px;
+  border-style: solid;
+  &.outline-light{
+    border-color: $color-white;
+    color: $color-white;
+  }
+  &.outline-black{
+    border-color: $color-black;
+    color: $color-black;
+  }
+}
