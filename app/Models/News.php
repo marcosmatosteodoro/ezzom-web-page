@@ -9,10 +9,20 @@ class News extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'category_id', 'cover'];
+    protected $fillable = ['title', 'category_id', 'cover', 'headline'];
 
     public function category()
     {
         return $this->belongsTo(Category::class);
+    }
+
+    public function justHeadline($query)
+    {
+        return $query->where('headline', true);
+    }
+
+    public function noHeadlines($query)
+    {
+        return $query->where('headline', false);
     }
 }

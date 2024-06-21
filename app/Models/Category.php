@@ -15,4 +15,9 @@ class Category extends Model
     {
         return $this->hasMany(News::class);
     }
+
+    public static function withNews()
+    {
+        return self::with('news')->get();
+    }
 }
