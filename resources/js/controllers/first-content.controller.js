@@ -13,4 +13,22 @@ document.addEventListener('DOMContentLoaded', function () {
       576:  { perPage: 1 },
     },
   }).mount();
+
+  window.addEventListener('resize', hiddenPaginationElements);
+  hiddenPaginationElements()
 });
+
+function hiddenPaginationElements() {
+  const paginationElements = document.getElementsByClassName('splide__pagination');
+  
+  for (let i = 0; i < paginationElements.length; i++) {
+    const paginationElement = paginationElements[i];
+    const contentElement = paginationElement.parentElement
+  
+    if (paginationElement && paginationElement?.children?.length > 1) {
+      contentElement.classList.remove('pagination-hidden')
+    } else {
+      contentElement.classList.add('pagination-hidden')
+    }
+  }
+}

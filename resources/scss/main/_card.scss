@@ -1,4 +1,25 @@
-#first-content {
+#first-content-splide {
+  margin-bottom: 40px;
+  padding-bottom: 46.16px;
+  &.pagination-hidden {
+    padding-bottom: 0;
+  }
+
+  .splide__pagination  {
+    bottom: 0;
+    
+    li button.splide__pagination__page {
+      background-color: transparent;
+      width: 20px;
+      height: 8px;
+      border-radius: 30px;
+      border: solid 1px $color-black;
+      &.is-active {
+        border: none;
+        background-color: $color-green;
+      }
+    }
+  }
 
   .splide-group {
     width: 100%;
