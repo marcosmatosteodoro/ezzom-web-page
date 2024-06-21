@@ -14,13 +14,7 @@
         
     </head>
     <body>
-        
         <x-header-component></x-header-component>
-
-        <main>
-            <section></section>
-
-            <section></section>
-        </main>
+        <x-main-content-component></x-main-content-component>
     </body>
 </html>
