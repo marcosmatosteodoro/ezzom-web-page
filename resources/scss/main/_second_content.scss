@@ -57,5 +57,20 @@
       max-width: 329px;
       width: 100%px;
     }
+
+    .bg-image-div{
+      position: relative;
+      height: 163px;
+    }
+
+    .bg-image-content {
+      display: grid;
+      align-items: end;
+    }
+
+    .divider {
+      z-index: 1;
+      height: 8px;
+    }
   }
 }

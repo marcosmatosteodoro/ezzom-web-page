@@ -1,5 +1,5 @@
 <li class="splide__slide">
-  <div class="splide-group bg-image" style="background-image: url('{{ $image }}')"> 
+  <div class="splide-group bg-image bri-top" style="background-image: url('{{ $image }}')"> 
     <div style="height: 8px">
       @include('components.shared.hr-color-component', ['bg' => $bg, 'orientation' => 'w', 'size' => 'md'])
     </div>
