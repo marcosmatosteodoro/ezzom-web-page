@@ -1,8 +1,9 @@
 #second-content {
   padding: 0 121px 99px;
   #card-news-group {
-    display: grid;
+    display: flex;
     gap: 20px;
+    flex-direction: column;
   }
   
   .card-news {
@@ -15,8 +16,8 @@
   .grid-news {
     display: grid;
     height: 100%;
-    grid-template-columns: 12px 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 12px 100%;
+    grid-template-rows: 100%;
   }
 
   .grid-news-content {
@@ -26,51 +27,84 @@
     grid-template-rows: 1fr;
   }
 
-  .grid-news-article {
+  article.grid-news-article {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     padding: 0 71px;
     gap: 4px;
+    color: $color-black;
     h1{
       font-weight: 250;
       font-size: 80px;
       line-height: 120px;
       letter-spacing: -8%;
-      color: $color-black;
     }
     
     p{
       font-weight: 400;
       font-size: 18px;
       line-height: 32px;
-      color: $color-black;
       margin-bottom: 19px;
     }
   }
 
-  .splide.second-content-splide{
-    .card-splide-group {
-      height: 100%;
-      min-height: 325px;
-      max-width: 329px;
-      width: 100%px;
-    }
+  .carrossel{
+    padding: 38px 0;
+  
+    .splide.second-content-splide{
+      .card-splide-group {
+        height: 100%;
+        min-height: 325px;
+        padding: 0 20px;
+      }
 
-    .bg-image-div{
-      position: relative;
-      height: 163px;
-    }
+      .bg-image-div{
+        position: relative;
+        height: 163px;
 
-    .bg-image-content {
-      display: grid;
-      align-items: end;
-    }
+        .bg-image-content {
+          display: grid;
+          align-items: end;
+        }
 
-    .divider {
-      z-index: 1;
-      height: 8px;
+        .divider {
+          z-index: 1;
+          height: 8px;
+        }
+      }
+
+      article.slide-article {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        // gap: 24px;
+        // padding: 22px 30px;
+        padding: 22px;
+    
+        .splide-title{
+          color: $color-black;
+          line-height: 22px;
+          display: grid;
+          gap: 40px;
+          h3{
+            font-weight: 700;
+            font-size: 18px;
+          }
+          span{
+            font-weight: 400;
+            font-size: 16px;
+          }
+        }
+    
+        .splide-arrow {
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+        }
+      }
+      
     }
   }
 }

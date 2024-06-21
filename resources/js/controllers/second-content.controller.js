@@ -8,12 +8,10 @@ document.addEventListener('DOMContentLoaded', function () {
     perPage: 3,
     autoplay: true,
     arrows: false,
-    // breakpoints: {
-    //   1200: { perPage: 4 },
-    //   992:  { perPage: 3 },
-    //   768:  { perPage: 2 },
-    //   576:  { perPage: 1 },
-    // },
+    breakpoints: {
+      1790: { perPage: 2 },
+      1540: { perPage: 1 },
+    },
   }
 
   for (let i = 0; i < splides.length; i++) {
