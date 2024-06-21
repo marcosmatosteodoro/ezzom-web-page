@@ -11,4 +11,11 @@
     border-radius: 10px;
     background-color: $color-gray;
   }
+
+  .grid-news {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 12px 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
 }
