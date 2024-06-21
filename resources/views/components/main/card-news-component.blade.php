@@ -9,10 +9,24 @@
       <article class="grid-news-article">
         <h1>Esportes</h1>
         <p>Lorem Ipsum dolor Sit Amet Lorem</p>
-        <button type="button" class="button-outline outline-black">Ver Todos</button>
+
+        <button type="button" class="button-outline outline-black">
+          Ver Todos
+        </button>
+
       </article>
 
-      <div class="carrossel"></div>
+      <div class="carrossel">
+        <div id="second-content-splide-{{ $id }}" class="splide second-content-splide ">
+          <div class="splide__track">
+            <ul class="splide__list">
+              @include('components.main.second-splide-item-component')
+              @include('components.main.second-splide-item-component')
+              @include('components.main.second-splide-item-component')
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
     
