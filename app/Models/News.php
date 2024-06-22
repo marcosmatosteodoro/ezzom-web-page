@@ -9,6 +9,7 @@ class News extends Model
 {
     use HasFactory;
 
+    protected $table = 'news';
     protected $fillable = ['title', 'category_id', 'cover', 'headline'];
 
     public function category()
@@ -16,12 +17,12 @@ class News extends Model
         return $this->belongsTo(Category::class);
     }
 
-    public function justHeadline($query)
+    public function scopeJustHeadlines($query)
     {
         return $query->where('headline', true);
     }
 
-    public function noHeadlines($query)
+    public function scopeNoHeadlines($query)
     {
         return $query->where('headline', false);
     }
