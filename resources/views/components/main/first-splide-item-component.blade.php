@@ -1,17 +1,17 @@
 <li class="splide__slide">
-  <div class="splide-group bg-image bri-top" style="background-image: url('{{ $image }}')"> 
+  <div class="splide-group bg-image bri-top" style="background-image: url('images{{ $headline->cover}}')"> 
     <div style="height: 8px">
-      @include('components.shared.hr-color-component', ['bg' => $bg, 'orientation' => 'w', 'size' => 'md'])
+      @include('components.shared.hr-color-component', ['bg' => 'bg-green', 'orientation' => 'w', 'size' => 'md'])
     </div>
 
     <article>
       <div class="splide-title">
         <h3>
-          {{ $title }}
+          {{ $headline->title }}
         </h3>
 
         <span>
-          {{ $date }}
+          {{ $headline->created_at }}
         </span>
       </div>
 

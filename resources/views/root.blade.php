@@ -15,6 +15,9 @@
     </head>
     <body>
         <x-header-component></x-header-component>
-        <x-main-content-component></x-main-content-component>
+        @include('components.main-content-component', [
+            'categoriesWithNews' => $categoriesWithNews,
+            'headlines' => $headlines,
+        ])
     </body>
 </html>
