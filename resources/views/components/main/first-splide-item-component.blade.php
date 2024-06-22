@@ -1,7 +1,7 @@
 <li class="splide__slide">
   <div class="splide-group bg-image bri-top" style="background-image: url('images{{ $headline->cover}}')"> 
     <div style="height: 8px">
-      @include('components.shared.hr-color-component', ['bg' => 'bg-green', 'orientation' => 'w', 'size' => 'md'])
+      <x-hr-color-component categoryCodeName="{{ $headline->category->codeName }}" orientation="w" size="md"/>
     </div>
 
     <article>

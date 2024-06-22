@@ -1,1 +1,1 @@
-<div class="hr-color {{ "br-$orientation-$size $bg" }}"></div>
+<div class="hr-color {{ $class }}"></div>
