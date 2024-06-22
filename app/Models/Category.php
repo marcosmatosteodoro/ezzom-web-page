@@ -18,6 +18,6 @@ class Category extends Model
 
     public static function withNews()
     {
-        return self::with('news')->get();
+        return self::with('news');
     }
 }
