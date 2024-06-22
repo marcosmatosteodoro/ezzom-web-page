@@ -11,7 +11,7 @@
         </h3>
 
         <span>
-          {{ $headline->created_at }}
+          {{ $headline->getDateAttribute() }}
         </span>
       </div>
 
