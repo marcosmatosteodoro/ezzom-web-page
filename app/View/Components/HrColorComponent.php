@@ -16,7 +16,7 @@ class HrColorComponent extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct($categoryCodeName="", $orientation, $size)
+    public function __construct($orientation, $size, $categoryCodeName="")
     {
         $this->categoryCodeName = $categoryCodeName;
         $this->orientation = $orientation;
