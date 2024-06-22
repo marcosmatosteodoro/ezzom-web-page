@@ -8,8 +8,7 @@
 
       <article class="grid-news-article">
         <h1>{{ $category->title }}</h1>
-        {{-- adicionar descrição em category --}}
-        <p>Lorem Ipsum dolor Sit Amet Lorem</p>
+        <p>{{ $category->description }}</p>
 
         <button type="button" class="button-outline outline-black">
           Ver Todos

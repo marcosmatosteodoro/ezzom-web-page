@@ -13,12 +13,14 @@ class CategorySeeder extends Seeder
      */
     public function run(): void
     {
+        $description = "Lorem Ipsum dolor Sit Amet Lorem";
+
         DB::table('categories')->insert([
-            ['title' => 'Esportes', 'codeName' => 'esportes'],
-            ['title' => 'Eventos', 'codeName' => 'eventos'],
-            ['title' => 'Serviços', 'codeName' => 'servicos'],
-            ['title' => 'Projetos', 'codeName' => 'projetos'],
-            ['title' => 'Negocios', 'codeName' => 'negocios'],
+            ['title' => 'Esportes', 'description'=> $description, 'codeName' => 'esportes'],
+            ['title' => 'Eventos', 'description'=> $description, 'codeName' => 'eventos'],
+            ['title' => 'Serviços', 'description'=> $description, 'codeName' => 'servicos'],
+            ['title' => 'Projetos', 'description'=> $description, 'codeName' => 'projetos'],
+            ['title' => 'Negocios', 'description'=> $description, 'codeName' => 'negocios'],
         ]);
     }
 }
