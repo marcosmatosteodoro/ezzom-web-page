@@ -1,14 +1,14 @@
 <div class="card-news">
   <div class="grid-news">
     <div class="hr-vertical">
-      <x-hr-color-component categoryCodeName="esportes" orientation="h" size="lg"/>
-
+      <x-hr-color-component categoryCodeName="{{ $category->codeName }}" orientation="h" size="lg"/>
     </div>
 
     <div class="grid-news-content">
 
       <article class="grid-news-article">
-        <h1>Esportes</h1>
+        <h1>{{ $category->title }}</h1>
+        {{-- adicionar descrição em category --}}
         <p>Lorem Ipsum dolor Sit Amet Lorem</p>
 
         <button type="button" class="button-outline outline-black">
@@ -18,12 +18,10 @@
       </article>
 
       <div class="carrossel">
-        <div id="second-content-splide-{{ $id }}" class="splide second-content-splide ">
+        <div id="second-content-splide-{{ $category->id }}" class="splide second-content-splide ">
           <div class="splide__track">
             <ul class="splide__list">
-              @include('components.main.second-splide-item-component')
-              @include('components.main.second-splide-item-component')
-              @include('components.main.second-splide-item-component')
+              @each('components.main.second-splide-item-component', $category->news, 'news')
             </ul>
           </div>
         </div>
