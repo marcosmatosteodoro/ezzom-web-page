@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('button-expand').addEventListener('click', toogleMenuExpand)
+});
+
 function toogleMenuExpand() {
   let newAtribute;
   const button = document.getElementById("button-expand")
@@ -15,5 +19,3 @@ function toogleMenuExpand() {
   
   button.setAttribute('aria-expanded', newAtribute)
 }
-
-document.getElementById('button-expand').addEventListener('click', toogleMenuExpand)
