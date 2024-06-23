@@ -2,7 +2,7 @@
   <div class="splide-news-card">
 
     <div class="splide-news-image">
-      <div class="bg-image bri-full splide-news-image-content" style="background-image: url('images{{ $news->cover}}')">
+      <div class="bg-image bri-full splide-news-image-content" style="background-image: url('{{ $news->cover}}')">
         <div>
           <x-hr-color-component categoryCodeName="{{ $news->category->codeName }}" orientation="w" size="md"/>
         </div>

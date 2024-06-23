@@ -21,133 +21,133 @@ class NewsSeeder extends Seeder
             [
                 'title' => $title,
                 'category_id' => $categories['esportes'],
-                'cover' => '/esportes/image1.jpeg',
+                'cover' => '/images/esportes/image1.jpeg',
                 'headline' => true,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['esportes'],
-                'cover' => '/esportes/image2.jpeg',
+                'cover' => '/images/esportes/image2.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['esportes'],
-                'cover' => '/esportes/image3.jpeg',
+                'cover' => '/images/esportes/image3.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['esportes'],
-                'cover' => '/esportes/image4.jpeg',
+                'cover' => '/images/esportes/image4.jpeg',
                 'headline' => true,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['eventos'],
-                'cover' => '/eventos/image1.jpeg',
+                'cover' => '/images/eventos/image1.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['eventos'],
-                'cover' => '/eventos/image2.jpeg',
+                'cover' => '/images/eventos/image2.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['eventos'],
-                'cover' => '/eventos/image3.jpeg',
+                'cover' => '/images/eventos/image3.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['servicos'],
-                'cover' => '/servicos/image1.jpeg',
+                'cover' => '/images/servicos/image1.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['servicos'],
-                'cover' => '/servicos/image2.jpeg',
+                'cover' => '/images/servicos/image2.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['servicos'],
-                'cover' => '/servicos/image3.jpeg',
+                'cover' => '/images/servicos/image3.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['servicos'],
-                'cover' => '/servicos/image4.jpeg',
+                'cover' => '/images/servicos/image4.jpeg',
                 'headline' => true,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['projetos'],
-                'cover' => '/projetos/image1.jpeg',
+                'cover' => '/images/projetos/image1.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['projetos'],
-                'cover' => '/projetos/image2.jpeg',
+                'cover' => '/images/projetos/image2.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['projetos'],
-                'cover' => '/projetos/image3.jpeg',
+                'cover' => '/images/projetos/image3.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['projetos'],
-                'cover' => '/projetos/image4.jpeg',
+                'cover' => '/images/projetos/image4.jpeg',
                 'headline' => true,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['negocios'],
-                'cover' => '/negocios/image1.jpeg',
+                'cover' => '/images/negocios/image1.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['negocios'],
-                'cover' => '/negocios/image2.jpeg',
+                'cover' => '/images/negocios/image2.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['negocios'],
-                'cover' => '/negocios/image3.jpeg',
+                'cover' => '/images/negocios/image3.jpeg',
                 'headline' => false,
                 'created_at' => $createdAt
             ],
             [
                 'title' => $title,
                 'category_id' => $categories['negocios'],
-                'cover' => '/negocios/image4.jpeg',
+                'cover' => '/images/negocios/image4.jpeg',
                 'headline' => true,
                 'created_at' => $createdAt
             ],

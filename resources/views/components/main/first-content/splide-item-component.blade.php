@@ -1,5 +1,5 @@
 <li class="splide__slide">
-  <div class="splide-group bg-image bri-top" style="background-image: url('images{{ $headline->cover}}')"> 
+  <div class="splide-group bg-image bri-top" style="background-image: url('{{ $headline->cover}}')"> 
     <div style="height: 8px">
       <x-hr-color-component categoryCodeName="{{ $headline->category->codeName }}" orientation="w" size="md"/>
     </div>
