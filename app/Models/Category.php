@@ -16,8 +16,16 @@ class Category extends Model
         return $this->hasMany(News::class);
     }
 
-    public static function withNews()
+    public static function withNews($includeHeadlines = true)
     {
-        return self::with('news');
+        if ($includeHeadlines) {
+            return self::with(['news' => function ($query) {
+                $query->with('headline');
+            }]);
+        } else {
+            return self::with(['news' => function ($query) {
+                $query->doesntHave('headline');
+            }]);
+        }
     }
 }

@@ -3,21 +3,18 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
-use App\Models\News;
+use App\Models\Headline;
 use Illuminate\Http\Request;
 
 class RootController extends Controller
 {
     public function index()
     {
-        $categoriesWithNews = Category::withNews()->get();
-        $headlines = News::justHeadlines()->get();
-        $noHeadlines = News::noHeadlines()->get();
-
+        $categoriesWithNews = Category::withNews(false)->get();
+        $headlines = Headline::getOrderedNews();
         $data = [
             'categoriesWithNews' => $categoriesWithNews,
             'headlines' => $headlines,
-            'noHeadlines' => $noHeadlines,
         ];
         
         return view('root', $data);

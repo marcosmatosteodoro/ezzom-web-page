@@ -29,4 +29,14 @@ class Headline extends Model
     {
         return $query->orderBy('position');
     }
+
+    public static function getOrderedNews()
+    {
+        return self::ordered()
+            ->with('news')
+            ->get()
+            ->map(function ($headline) {
+                return $headline->news;
+            });
+    }
 }
