@@ -1,30 +1,27 @@
-<div class="card-news">
-  <div class="grid-news">
-    <div class="hr-vertical">
+<div class="card-news-container">
+  <div class="card-news-content">
+    <div class="divider">
       <x-hr-color-component categoryCodeName="{{ $category->codeName }}" orientation="h" size="lg"/>
     </div>
 
-    <div class="grid-news-content">
-
-      <article class="grid-news-article">
-        <h1>{{ $category->title }}</h1>
+    <div class="card-news-body">
+      <div class="card-news-info">
+        <h3>{{ $category->title }}</h3>
         <p>{{ $category->description }}</p>
-
-        <button type="button" class="button-outline outline-black">
-          Ver Todos
+        <button class="button-outline outline-black" type="button">
+          VER TODOS
         </button>
+      </div>
 
-      </article>
-
-      <div class="carrossel">
-        <div id="second-content-splide-{{ $category->id }}" class="splide second-content-splide ">
+      <div class="card-news-carrossel">
+        <div id="second-content-splide-{{ $category->id }}" class="splide second-content-splide">
           <div class="splide__track">
             <ul class="splide__list">
               @each('components.main.second-splide-item-component', $category->news, 'news')
-            </ul>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 </div>
