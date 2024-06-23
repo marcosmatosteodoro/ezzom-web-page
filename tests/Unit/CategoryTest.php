@@ -33,6 +33,7 @@ class CategoryTest extends TestCase
     }
 
     /** @test */
+    // TODO CORRIGIR esse teste
     // public function it_can_load_news_with_headlines()
     // {
     //     $categoryWithHeadlines = Category::factory()

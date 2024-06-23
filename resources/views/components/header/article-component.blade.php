@@ -1,6 +1,6 @@
 <div id="title-group">
   <h1>
-    Novas <span>modalidades</span> e ampliaçãode <span>horários.</span>
+    Novas <span>modalidades</span> e ampliação de <span>horários.</span>
   </h1>
   
   <h2>
