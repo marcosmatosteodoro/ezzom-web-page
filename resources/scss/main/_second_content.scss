@@ -88,9 +88,12 @@
           max-width: 400px;
         }
 
-        .splide.pagination-hidden {
-          .splide__pagination{
-            display: none;
+        .splide {
+          padding-bottom: 50px;
+          &.pagination-hidden {
+            .splide__pagination{
+              display: none;
+            }
           }
         }
 
