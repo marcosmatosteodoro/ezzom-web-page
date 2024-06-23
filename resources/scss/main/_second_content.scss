@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 99px;
+  
   #card-news-group {
     display: flex;
     flex-direction: column;
@@ -86,6 +87,13 @@
         @media (max-width: $break-xl){
           max-width: 400px;
         }
+
+        .splide.pagination-hidden {
+          .splide__pagination{
+            display: none;
+          }
+        }
+
         .splide__list {
           gap: 40px;
         }
