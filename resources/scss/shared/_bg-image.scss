@@ -28,8 +28,8 @@ $bri-bottom: 0px 0px $border $border;
   }
   &.bri-full {
     &::before{
-      border-radius: $bri-top;
+      border-radius: $border;
     }
-    border-radius: $bri-top;
+    border-radius: $border;
   }
 }
