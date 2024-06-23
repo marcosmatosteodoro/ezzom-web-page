@@ -22,12 +22,12 @@ class HeaderComponent extends Component
             ['title'=> 'Menu3', 'menu'=> 'menu3'],
         ];
         $this->liItems  = [
-            ['name'=> 'facebook', 'path'=> '/facebook.svg','width'=>'18px', 'height'=>'18px'],
-            ['name'=> 'instagram', 'path'=> '/instagram.svg','width'=>'19px', 'height'=>'19px'],
-            ['name'=> 'youtube', 'path'=> '/youtube.svg','width'=>'20px', 'height'=>'14px'],
-            ['name'=> 'tiktok', 'path'=> '/tiktok.svg','width'=>'15.68px', 'height'=>'18px'],
-            ['name'=> 'mic', 'path'=> '/mic.svg','width'=>'13.3px', 'height'=>'19px'],
-            ['name'=> 'linkedin', 'path'=> '/linkedin.svg','width'=>'18px', 'height'=>'18px'],
+            ['name'=> 'facebook', 'path'=> '/icons/facebook.svg','width'=>'18px', 'height'=>'18px'],
+            ['name'=> 'instagram', 'path'=> '/icons/instagram.svg','width'=>'19px', 'height'=>'19px'],
+            ['name'=> 'youtube', 'path'=> '/icons/youtube.svg','width'=>'20px', 'height'=>'14px'],
+            ['name'=> 'tiktok', 'path'=> '/icons/tiktok.svg','width'=>'15.68px', 'height'=>'18px'],
+            ['name'=> 'mic', 'path'=> '/icons/mic.svg','width'=>'13.3px', 'height'=>'19px'],
+            ['name'=> 'linkedin', 'path'=> '/icons/linkedin.svg','width'=>'18px', 'height'=>'18px'],
         ];
     }
 

@@ -16,7 +16,7 @@
       </div>
 
       <div class="splide-arrow">
-        <img src="/arrow-left.svg" alt="arrow left" width="20px" height="17.69px" />
+        <img src="/icons/arrow-left.svg" alt="arrow left" width="20px" height="17.69px" />
       </div>
     </article> 
   </div>

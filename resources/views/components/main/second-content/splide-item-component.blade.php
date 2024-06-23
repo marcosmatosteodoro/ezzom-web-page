@@ -14,7 +14,7 @@
         <p>{{ $news->title }}</p>
         <span>{{ $news->date }}</span>
       </div>
-      <img src="/arrow-left-black.svg" alt="" width="20px" height="17.69px">
+      <img src="/icons/arrow-left-black.svg" alt="" width="20px" height="17.69px">
     </div>
 
   </div>
