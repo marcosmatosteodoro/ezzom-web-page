@@ -15,6 +15,7 @@
     </head>
     <body>
         <x-header-component></x-header-component>
+        @include("components.whatsapp-button-component")
         @include('components.main-content-component', [
             'categoriesWithNews' => $categoriesWithNews,
             'headlines' => $headlines,

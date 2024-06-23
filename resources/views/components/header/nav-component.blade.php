@@ -1,6 +1,6 @@
 <nav>
   <div class="nav-content">
-    <a href="#">
+    <a href="#Logo">
       <img id="logo" src="/logo.svg" alt="Logo" width="100">
     </a>
 
@@ -16,7 +16,7 @@
 
         <div id="menu-content">
           <ul id="menu-links">
-            @each('components.menu-item-link-component', $menuItems, 'item')
+            @each('components.header.nav.menu-item-link-component', $menuItems, 'item')
           </ul>
           
           <button class="search-button lg-hide" type="button">
@@ -24,7 +24,7 @@
           </button>
           
           <ul id="menu-icons">
-            @each('components.menu-item-li-component', $liItems, 'item')
+            @each('components.header.nav.menu-item-li-component', $liItems, 'item')
           </ul>
         </div>
       </div>

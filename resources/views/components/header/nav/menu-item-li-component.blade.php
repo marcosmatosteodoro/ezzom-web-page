@@ -1,5 +1,5 @@
 <li>
-  <a href="#">
+  <a href="#{{ $item['name'] }}">
     <img
       src="{{ $item['path'] }}"
       alt="{{ $item['name'] }}"

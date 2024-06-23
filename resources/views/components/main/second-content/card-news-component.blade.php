@@ -17,7 +17,7 @@
         <div id="second-content-splide-{{ $category->id }}" class="splide second-content-splide">
           <div class="splide__track">
             <ul class="splide__list">
-              @each('components.main.second-splide-item-component', $category->news, 'news')
+              @each('components.main.second-content.splide-item-component', $category->news, 'news')
           </div>
         </div>
       </div>

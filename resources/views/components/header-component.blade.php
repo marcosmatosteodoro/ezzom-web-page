@@ -9,5 +9,3 @@
     </div>
   </div>
 </header>
-
-@include("components.header.whatsapp-button-component")
